@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "FillTheForm",
+  "version": "1.0",
+  "description": "you can use the data to fill any form",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "128": "images/logo.png"
+    }
+  },
+  "permissions": ["activeTab","storage"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
